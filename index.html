@@ -19,17 +19,22 @@
             color: #ff2525;
             background: rgb(255, 231, 47);
         }
-        span{
+
+        span {
             color: #188e5f;
         }
-        .num2{
+
+        /* создание класса стиля имя может быть любое */
+        .num2 {
             color: #edff23;
             background: #082954;
         }
-        .num1{
+
+        .num1 {
             color: #ff23e2;
         }
-        div{
+
+        div {
             /* TODO -  задаём рамке толщину тип цвет (все эти параметры можно задать отдельно пример ниже) */
             border: 7px solid #000;
             /* border: 3px dashed #000; */
@@ -44,7 +49,7 @@
             /* TODO - меняем стиль рамки для всех сторон или для каждой стороны отдельно */
             /* border-top-style:ridge; */
             /* border-style: dotted dashed double ridge; */
-            
+
             /* TODO - меняем цвет рамки для всех сторон или для каждой стороны отдельно */
             /* border-bottom-color: #ff4444; */
             /* border-color: #ffffff #454545; */
@@ -54,13 +59,13 @@
             /* TODO - padding - внутренние отступы  */
             padding: 5px;
             padding-left: 20px;
-            
-            
+
+
             /* TODO - margin - внешние отступы */
             margin: 10px;
             /* margin: 5px 10px 15px 20px; */
-            
-            
+
+
             /* TODO - ширина и высота элемента */
             height: 50px;
             /* width: 200px; */
@@ -101,14 +106,14 @@
         title 6
     </h6>
     text
-    
-    
+
+
     <!-- незакрывающийся тег <br> - переносит текст -->
     hello
     <br>
     тег br
-    
-    
+
+
     <!-- незакрывающийся тег <hr> - переносит текст и создаёт линию -->
     hello
     <hr>
@@ -116,19 +121,22 @@
     <p>
         oggmgmg
     </p>
-    я текст 
+    я текст
     <span>
-        супер 
+        супер
     </span>
-    создаёт меня 
+    создаёт меня
+    <!-- закрывающийся тег <span> - блок обтекает текст -->
     <span>
         HTML
     </span>
     ,
+    <!-- привязываем класс к тегу -->
     <span class="num1 num2">
         CSS
     </span>
 
+    <!-- закрывающийся тег <div> - блок выделяет текст во всю ширину страницы -->
     <div>
         hello div
     </div>
