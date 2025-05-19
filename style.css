@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+img{
+    height: 200px;
+}
+div{
+    /* background-image: url("/photo_2.png") , url("/photo_1.jpg"); */
+    background-image: url("/photo_1.jpg");
+    width: 500px;
+    height: 700px;
+}
