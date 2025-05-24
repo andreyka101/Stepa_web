@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* SECTION - all text */
+        .text1 {
+            /* TODO - размер текста */
+            font-size: 30px;
+        }
+
+        .text2 {
+            /* TODO - вид написания текста */
+            font-style: oblique;
+        }
+
+        .text3 {
+            /* TODO - толщина текста */
+            font-weight: 800;
+        }
+
+        .text4 {
+            /* TODO - меняем шрифт */
+            /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+            font-family: cursive;
+        }
+
+        /* LINK - подключаем свой шрифт */
+        @font-face {
+            /* TODO - путь к шрифту */
+            src: url(Drabina-Outline.otf);
+            /* TODO - задаём название шрифту */
+            font-family: super;
+        }
+        .text5 {
+            /* TODO - устанавливаем подключённый шрифт */
+            font-family: super;
+            color: blueviolet;
+        }
+        .text6 {
+
+            /* TODO - высота линии */
+            /* overline - верхняя линия
+            line-through - средняя линия
+            underline - нижняя линия */
+            text-decoration-line:underline;
+
+
+
+            /* TODO - вид линии */
+            /* solid — обычная сплошная линия
+            double — двойная линия
+            dotted — пунктирная линия (пунктир из точек)
+            dashed — тоже пунктирная линия, но пунктир из коротких линий
+            wavy — волнистая линия */
+            text-decoration-style:wavy ;
+            
+            /* TODO - цвет линии */
+            text-decoration-color: #2344ff;
+        }
+        /* !SECTION */
+        
+        
+        
+        /* SECTION - all list */
+        .list1 {
+            /* TODO - меняем точки списка на другие символы */
+            /* list-style-type:circle;
+            list-style-type:georgian; */
+            /* list-style-type: '+'; */
+            list-style-type: '\262D';
+        }
+        
+        .list2 {
+            /* TODO - меняем точки списка на фото */
+            list-style-image: url(circle_puldekmwk3fm_16.png);
+        }
+        /* !SECTION */
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="./">назад</a>
+    </div>
+    <div class="text1">
+        text 1
+    </div>
+    <div class="text2">
+        text 2
+    </div>
+    <div class="text3">
+        text 3
+    </div>
+    <div class="text4">
+        text 4
+    </div>
+    <div class="text5">
+        text 5
+    </div>
+    <div class="text6">
+        text 6
+    </div>
+    <div class="text7">
+        text 7
+    </div>
+    <div class="text8">
+        text 8
+    </div>
+
+    <hr>
+
+    <!-- ul - список с точками -->
+    <ul>
+        <li>hello (ul) 1</li>
+        <li>hello (ul) 2</li>
+        <li>hello (ul) 3</li>
+        <li>hello (ul) 4</li>
+    </ul>
+
+    <hr>
+
+    <!-- ol - список с цифрами -->
+    <ol>
+        <li>hello (ol)</li>
+        <li>hello (ol)</li>
+        <li>hello (ol)</li>
+        <li>hello (ol)</li>
+    </ol>
+
+    <hr>
+
+    <ul class="list1">
+        <li>hello (ul) 1</li>
+        <li>hello (ul) 2</li>
+        <li>hello (ul) 3</li>
+        <li>hello (ul) 4</li>
+    </ul>
+
+    <hr>
+
+    <ul class="list2">
+        <li>hello (ul) 1</li>
+        <li>hello (ul) 2</li>
+        <li>hello (ul) 3</li>
+        <li>hello (ul) 4</li>
+    </ul>
+
+    <hr>
+
+    <!-- список в списке -->
+    <ul>
+        <li>hello (ul) 1</li>
+        <li>hello (ul) 2</li>
+        <ol>
+            <li>hello (ul) 1</li>
+            <li>hello (ul) 2</li>
+            <li>hello (ul) 3</li>
+            <li>hello (ul) 4</li>
+        </ol>
+        <li>hello (ul) 3</li>
+        <li>hello (ul) 4</li>
+    </ul>
+
+
+</body>
+
+</html>
