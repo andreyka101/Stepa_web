@@ -5,8 +5,14 @@ img{
     height: 200px;
 }
 div{
+    /* background-image: url("/photo_1.jpg"); */
     /* background-image: url("/photo_2.png") , url("/photo_1.jpg"); */
-    background-image: url("/photo_1.jpg");
-    width: 500px;
-    height: 700px;
+    /* background:url("/photo_1.jpg") repeat-x; */
+    /* background:url("/photo_1.jpg") no-repeat 20%/60%; */
+    /* width: 700px;
+    height: 700px; */
+    
+    background:url("/photo_1.jpg") no-repeat center/cover;
+    width: 700px;
+    height: 462px;
 }
