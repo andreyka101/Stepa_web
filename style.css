@@ -1,17 +1,31 @@
 body {
     background-color: aqua;
 }
+
+
+/* чтобы тег img работал ему нужно указать ширину или высоту */
 img{
     height: 200px;
 }
+
+
 div{
+    /* делаем картинку фоном */
     /* background-image: url("/photo_1.jpg"); */
+
+    /* делаем две картинки фоном */
     /* background-image: url("/photo_2.png") , url("/photo_1.jpg"); */
+
+    /* фон картинка повторяется по x */
     /* background:url("/photo_1.jpg") repeat-x; */
+
+    /* no-repeat картинка становится только одна */
+    /* позиционировануем и меняем размер картинки фона */
     /* background:url("/photo_1.jpg") no-repeat 20%/60%; */
     /* width: 700px;
     height: 700px; */
     
+    /* делаем картинку по центру и на весь размер тега */
     background:url("/photo_1.jpg") no-repeat center/cover;
     width: 700px;
     height: 462px;
