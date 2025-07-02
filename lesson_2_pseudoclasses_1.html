@@ -8,7 +8,7 @@
         /* стили без псевдо класса*/
         .num1{
             background-color: blueviolet;
-            color: rgb(255, 255, 255);
+            /* color: rgb(255, 255, 255); */
             border-radius: 20px;
             padding: 16px;
             margin: 10px;
@@ -25,6 +25,37 @@
             padding: 10px;
             background-color: #414141;
         }
+        
+        
+        
+        .num3{
+            background-color: #1a3a7d;
+            color: #ffffff;
+            margin-left: 30px;
+            padding: 10px;
+            font-size: 20px;
+            transition: 1s;
+        }
+        .num3:hover{
+            border-radius: 30px;
+            background-color: #d1ff91;
+            color: #1f0d0d;
+
+            /* transition - стили меняются с указанным временем */
+            /* transition: 0.7s; */
+
+            /* можно каждому стилю задавать время отдельно */
+            /* transition:border-radius 3s; */
+            /* transition:border-radius 4s,
+            background-color 1s; */
+
+            /* можно использовать временную функцию */
+            transition: 3s ease-out;
+            
+        }
+        .num3:active{
+            background-color: #ff7e7e;
+        }
 
     </style>
 </head>
@@ -39,6 +70,11 @@
         <span class="num2">
             span active
         </span>
+        <div style="margin-top: 60px;">
+            <span class="num3">
+                transition
+            </span>
+        </div>
     <br>
 </body>
 </html>
