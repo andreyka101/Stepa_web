@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table{
-            border-collapse: collapse;
+        table {
             font-size: 25px;
+
+            /* убираем промежутка между ячеек в таблице */
+            border-collapse: collapse;
         }
+
         td {
             margin: 5px;
             border: 1px solid black;
@@ -21,14 +24,24 @@
     <div>
         <a href="./">назад</a>
     </div>
+
+
+    <!-- LINK - пример таблицы 1 -->
+    <!-- TODO - table - таблица -->
     <table>
+        <!-- TODO - tr - строка таблицы -->
         <tr>
+            <!-- TODO - td - ячейка таблицы -->
             <td>
                 1
             </td>
             <td>
                 2
             </td>
+            <!-- 
+                colspan=" количество занимаемых ячеек по горизонтали "
+                rowspan=" количество занимаемых ячеек по вертикали "
+            -->
             <td colspan="3">
                 3
             </td>
@@ -46,7 +59,11 @@
             <td>
                 7
             </td>
-            <td rowspan="2" style="column-gap: ;">
+            <!-- 
+                colspan=" количество занимаемых ячеек по горизонтали "
+                rowspan=" количество занимаемых ячеек по вертикали "
+            -->
+            <td rowspan="2">
                 8
             </td>
         </tr>
@@ -62,15 +79,22 @@
             </td>
         </tr>
     </table>
-
-
-
-
-
+    
+    
+    
+    
+    
+    <!-- LINK - пример таблицы 2 -->
+    <!-- 
+        colspan=" количество занимаемых ячеек по горизонтали "
+        rowspan=" количество занимаемых ячеек по вертикали "
+    -->
     <table style="width: 400px;">
+        <!-- TODO - caption - название таблицы -->
         <caption>
             super table
         </caption>
+        <!-- TODO - thead - шапка таблицы -->
         <thead>
             <tr>
                 <td colspan="2">
@@ -81,47 +105,49 @@
                 </td>
             </tr>
         </thead>
+        <!-- TODO - tbody - тело таблицы -->
         <tbody>
             <tr>
-            <td>
-                1
-            </td>
-            <td>
-                2
-            </td>
-            <td colspan="3">
-                3
-            </td>
-        </tr>
-        <tr>
-            <td>
-                4
-            </td>
-            <td>
-                5
-            </td>
-            <td>
-                6
-            </td>
-            <td>
-                7
-            </td>
-            <td rowspan="2" style="column-gap: ;">
-                8
-            </td>
-        </tr>
-        <tr>
-            <td>
-                9
-            </td>
-            <td>
-                10
-            </td>
-            <td colspan="2">
-                11
-            </td>
-        </tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    2
+                </td>
+                <td colspan="3">
+                    3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    6
+                </td>
+                <td>
+                    7
+                </td>
+                <td rowspan="2">
+                    8
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    9
+                </td>
+                <td>
+                    10
+                </td>
+                <td colspan="2">
+                    11
+                </td>
+            </tr>
         </tbody>
+        <!-- TODO - tfoot - низ таблицы -->
         <tfoot>
             <tr>
                 <td colspan="4">
