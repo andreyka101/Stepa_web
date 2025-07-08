@@ -14,18 +14,18 @@
             display: inline-block;
         }
         .disp_flex{
+            /* display: none - убирает блок */
             display: flex;
             flex-direction: row;
             justify-content: space-around;
         }
         .disp_flex_2{
-            /* display: flex; */
+            /* display: flex -  */
             display: inline-flex;
             flex-wrap: wrap;
             justify-content: center;
 
-
-            /* display: none; */
+            /* display: none - убирает блок */
         }
     </style>
 </head>
@@ -48,27 +48,31 @@
 
 
     <span style="background-color: rgb(36, 255, 80); ">
+        <!-- display: inline - создан только для текста -->
         inline
         <br>
         101010101010101
     </span>
     <p>
         <span class="disp_1" style="background-color: rgb(36, 255, 80);">
+            <!-- display: inline-block - создан для обтекания блоков и текста -->
             inline-block
             <br>
             101010101010101
         </span>
     </p>
     <div style="background-color: rgb(36, 255, 80);">
+        <!-- display: block - создан только для блоков -->
         block
         <br>
         101010101010101
     </div>
-
-
-
+    
+    
+    
     <p style=" margin-top: 60px;">
-        display flex
+        <!-- display: flex - создан для позиционирования блоков -->
+        display flex - создан для позиционирования блоков
     </p>
     <div class="disp_flex" style="background-color: rgba(0, 255, 255, 0.32);">
         <div style="display: inline-block;">
@@ -82,10 +86,11 @@
         </div>
     </div>
 
-
+    
 
     <p style=" margin-top: 60px;">
-        display inline-flex
+        <!-- display: inline-flex - создан для обтикаемого позиционирования блоков -->
+        display inline-flex - создан для обтикаемого позиционирования блоков
     </p>
     <div class="disp_flex_2" style="background-color: rgba(0, 255, 255, 0.32); ">
         <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
@@ -99,6 +104,16 @@
         <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
         </div>
     </div>
+    
+        
+    
+        <p style=" margin-top: 60px;">
+            <!-- display: none - ничего -->
+            display none - ничего
+        </p>
+        <div style="display: none;">
+            text
+        </div>
 </body>
 
 </html>
