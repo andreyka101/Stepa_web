@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .num1 {
+            background-color: blueviolet;
+            padding: 30px;
+        }
+        .disp_1{
+            display: inline-block;
+        }
+        .disp_flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .disp_flex_2{
+            /* display: flex; */
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+            /* display: none; */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="./">назад</a>
+    </div>
+
+
+    <span class="num1">
+        text SPAN
+    </span>
+    <div class="num1" style="background-color: rgba(0, 255, 255, 0.365);">
+        span DIV
+    </div>
+
+
+    <br>
+
+
+    <span style="background-color: rgb(36, 255, 80); ">
+        inline
+        <br>
+        101010101010101
+    </span>
+    <p>
+        <span class="disp_1" style="background-color: rgb(36, 255, 80);">
+            inline-block
+            <br>
+            101010101010101
+        </span>
+    </p>
+    <div style="background-color: rgb(36, 255, 80);">
+        block
+        <br>
+        101010101010101
+    </div>
+
+
+
+    <p style=" margin-top: 60px;">
+        display flex
+    </p>
+    <div class="disp_flex" style="background-color: rgba(0, 255, 255, 0.32);">
+        <div style="display: inline-block;">
+            text_1
+        </div>
+        <div style="display: inline-block; margin-left: 150px;">
+            text_2
+        </div>
+        <div style="display: inline-block;">
+            text_3
+        </div>
+    </div>
+
+
+
+    <p style=" margin-top: 60px;">
+        display inline-flex
+    </p>
+    <div class="disp_flex_2" style="background-color: rgba(0, 255, 255, 0.32); ">
+        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        </div>
+        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        </div>
+        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        </div>
+        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        </div>
+        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        </div>
+    </div>
+</body>
+
+</html>
