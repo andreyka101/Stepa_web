@@ -11,22 +11,22 @@ img{
 
 div{
     /* делаем картинку фоном */
-    /* background-image: url("/photo_1.jpg"); */
+    /* background-image: url("./photo_1.jpg"); */
 
     /* делаем две картинки фоном */
-    /* background-image: url("/photo_2.png") , url("/photo_1.jpg"); */
+    /* background-image: url("./photo_2.png") , url("/photo_1.jpg"); */
 
     /* фон картинка повторяется по x */
-    /* background:url("/photo_1.jpg") repeat-x; */
+    /* background:url("./photo_1.jpg") repeat-x; */
 
     /* no-repeat картинка становится только одна */
     /* позиционировануем и меняем размер картинки фона */
-    /* background:url("/photo_1.jpg") no-repeat 20%/60%; */
+    /* background:url("./photo_1.jpg") no-repeat 20%/60%; */
     /* width: 700px;
     height: 700px; */
     
     /* делаем картинку по центру и на весь размер тега */
-    background:url("/photo_1.jpg") no-repeat center/cover;
+    background:url("./photo_1.jpg") no-repeat center/cover;
     width: 700px;
     height: 462px;
 }

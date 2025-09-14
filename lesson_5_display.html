@@ -10,22 +10,31 @@
             background-color: blueviolet;
             padding: 30px;
         }
-        .disp_1{
+
+        .disp_1 {
             display: inline-block;
         }
-        .disp_flex{
+
+        .disp_flex {
             /* display: none - убирает блок */
             display: flex;
             flex-direction: row;
             justify-content: space-around;
         }
-        .disp_flex_2{
+
+        .disp_flex_2 {
             /* display: flex -  */
             display: inline-flex;
             flex-wrap: wrap;
             justify-content: center;
 
             /* display: none - убирает блок */
+        }
+        .div_button span{
+            display: none;
+        }
+        .div_button:hover span{
+            display: inline;
         }
     </style>
 </head>
@@ -67,9 +76,9 @@
         <br>
         101010101010101
     </div>
-    
-    
-    
+
+
+
     <p style=" margin-top: 60px;">
         <!-- display: flex - создан для позиционирования блоков -->
         display flex - создан для позиционирования блоков
@@ -86,34 +95,46 @@
         </div>
     </div>
 
-    
+
 
     <p style=" margin-top: 60px;">
         <!-- display: inline-flex - создан для обтикаемого позиционирования блоков -->
         display inline-flex - создан для обтикаемого позиционирования блоков
     </p>
     <div class="disp_flex_2" style="background-color: rgba(0, 255, 255, 0.32); ">
-        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        <div
+            style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
         </div>
-        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        <div
+            style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
         </div>
-        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        <div
+            style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
         </div>
-        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        <div
+            style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
         </div>
-        <div style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
+        <div
+            style="width: 300px; height: 50px; background-color: rgb(255, 100, 100); margin: 5px; border: 3px #000 solid;">
         </div>
     </div>
-    
-        
-    
-        <p style=" margin-top: 60px;">
-            <!-- display: none - ничего -->
-            display none - ничего
-        </p>
-        <div style="display: none;">
-            text
+
+
+
+    <p style=" margin-top: 60px;">
+        <!-- display: none - ничего -->
+        display none - ничего
+    </p>
+    <div style="display: none;">
+        text
+    </div>
+
+    <p>
+        <div class="div_button" style="background-color: blueviolet; display: inline-block;">
+            <img src="./icons8-google-48.png" alt="">
+            <span>efffnfnnefii</span>
         </div>
+    </p>
 </body>
 
 </html>
