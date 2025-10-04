@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            /* transform: scale(2 , 0.7); */
+
+            /* transform: rotate(70deg); */
+            /* transform-origin: top left; */
+            /* transform-origin: 500px 20px; */
+
+            /* transform: matrix(1,1,1,1,1,1); */
+            transform: matrix3D(1,1,1,1,1,1);
+            transform: skew(30deg, 10deg);
+            transform: translate(100px,300px);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div style="z-index: 10;width: 200px; height: 200px; position: absolute; top:30px; left: 30px; background-color: aquamarine;"></div>
+    <div style="width: 300px; height: 300px; position: absolute; top:100px; left: 150px; background-color: #dccb14; "></div> -->
+    
+    <div class="box" style="width: 300px; height: 300px; position: absolute; top:100px; left: 150px; background:url('./photo_1.jpg') no-repeat center/cover;"></div>
+
+</body>
+</html>
