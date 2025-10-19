@@ -7,8 +7,12 @@
     <style>
         .box_grid{
             display: grid;
+            /* создаём 4 колонки */
             grid-template-columns: 100px 20% 20cqi 20vh;
+            /* создаём 3 ряда */
             grid-template-rows: 100px 200px 35vh;
+
+            /* gap - отступы между ячеек */
             gap: 10px;
             /* gap: 10px 2cqi; */
             /* column-gap: 10px; */
@@ -28,15 +32,17 @@
     </style>
 </head>
 <body>
-    <!-- <div class="box_grid"> -->
+    <div class="box_grid">
         <!-- TODO +++++ -->
         <!-- <div>1</div>
         <div>2</div> -->
         <!-- TODO +++++ -->
-        <!-- <div style="grid-column: span 2;">
-            12
-        </div>
-        <div>3</div>
+         <!-- обедняем ячейки по ширине -->
+         <div style="grid-column: span 2;">
+             12
+            </div>
+            <div>3</div>
+        <!-- обедняем ячейки по высоте -->
         <div style="grid-row: span 3;">
             4
         </div>
@@ -46,7 +52,7 @@
         <div>8</div>
         <div>9</div>
         <div>10</div>
-    </div> -->
+    </div>
 
     
 </body>
