@@ -2,13 +2,20 @@
     margin-top: 100px;
     /* display: inline-grid; */
     display: grid;
+
     /* grid-template-columns: 200px 100px auto auto; */
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     gap: 10px;
     height: 400px;
+
+    /* настройка переполнения ячеек вертикальное или горизонтальное */
     /* grid-auto-flow: column; */
+
+    /* при переполнении блоки переходят в пустые ячейки */
     grid-auto-flow:dense;
+
+    /* указываем размер переполняемых ячеек */
     grid-auto-columns: 100px;
 }
 
@@ -27,21 +34,17 @@
     margin-top: 100px;
     /* display: inline-grid; */
     display: grid;
+    /* repeat - создаём нескалько одинаковых ячеек */
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(3, auto);
     gap: 10px;
+    
+    /* указываем размер переполняемых ячеек */
     grid-auto-columns: 100px;
-    grid-template-areas:
-        "header header header"
-        "nav main aside"
-        "footer footer footer";
 }
 
 
 
-.box_grid_3 div {
-    grid-area: header;
-}
 
 
 
